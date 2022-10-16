@@ -51,7 +51,8 @@ a {
   grid-auto-flow: dense;
   width: 100%;
   height: auto;
-  background-image: url("https://i.ibb.co/ggG5YwK/hero-background.jpges/markus-spiske-hvSr_CVecVI-unsplash.jpg");
+  background-color:  #192038;
+  background-image: url("https://i.ibb.co/VDTK1Y8/hero-background.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -77,9 +78,10 @@ a {
   width: 50px;
   height: 50px;
   padding: 12px 0px 0px 10px;
+  /* background-color: rgba(3, 18, 58, 0.796); */
 }
 
-.sticky-nav2 {
+.sticky-nav2  {
   display: none;
   z-index: 20;
 }
@@ -125,9 +127,9 @@ a {
   width: 100%;
   margin: 140px 0px 0px 10px;
   animation-name: appear;
-  animation-duration: 2s;
-  -webkit-animation-duration: 2s;
-  -moz-animation-duration: 2s;
+  animation-duration: 3s;
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s;
 }
 
 @keyframes appear {
@@ -177,21 +179,19 @@ a {
   grid-column: 1 / span 2;
 }
 
-.hero :last-child {
-}
 
 .hero-pic img {
   background: rgb(180, 157, 127);
   border-radius: 50%;
-  border: 19px solid #10162c;
+  border: 19px solid rgb(16, 22, 44);
   width: 90%;
   height: auto;
   transform: translatex(-40px);
 
   animation-name: appear;
-  animation-duration: 0.7s;
-  -webkit-animation-duration: 0.7s;
-  -moz-animation-duration: 0.7s;
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  animation-duration: 3s;
 }
 /* wave */
 
@@ -340,8 +340,8 @@ a {
 .post-slider .post-wrapper .post .slider-img {
   width: 100%;
   height: 230px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
 }
 
 .post-slider .post-wrapper .post .post-info {
@@ -387,7 +387,7 @@ a {
 .skills-container {
   width: 100%;
   height: auto;
-  background-color: #f1f1f1;
+  background-color: rgb(241, 241, 241);
   padding: 70px 0px 70px 0px;
   text-align: center;
   justify-content: center;
@@ -417,11 +417,12 @@ a {
   cursor: pointer;
   border: 0px;
   border-style: none;
+  background-color: rgb(241, 241, 241);
 }
 
 .skills-programs .tablink:hover {
   transition: 0.1.5s;
-  background-color: #e2e2e1;
+  background-color: rgb(226, 226, 225);
 }
 .skills-programs.email .tablink:hover {
   background-color: transparent;
@@ -457,7 +458,7 @@ a {
 }
 
 .tccontainer .tabcontent {
-  color: #313131;
+  color: #424242;
   background-color: #ffffff;
   font-size: 1.2em;
   display: none;
@@ -466,6 +467,7 @@ a {
   height: 420px;
   scroll-behavior: smooth;
   border-radius: 40px 0px 0px;
+  justify-content: center;
 }
 
 .tccontainer .tabcontent p {
@@ -704,7 +706,7 @@ a {
 }
 
 .boxes .box-3.A {
-  background-image: url("https://i.ibb.co/Q67WqBC/pet-clinic.png"),
+  background-image: url("https://i.ibb.co/z5BK99K/pet-clinic.jpg"),
     linear-gradient(180deg, rgb(136, 136, 136) 60%, rgba(0, 0, 0, 0.816));
   /* background-image: url("images/img03.jpg"),
     -ms-linear-gradient(top, rgb(136, 136, 136) 60%, rgba(0, 0, 0, 0.816));
@@ -715,12 +717,12 @@ a {
 }
 
 .boxes .box-3.B {
-  background-image: url("https://i.ibb.co/10rygvJ/everytable.jpg"),
+  background-image: url("https://i.ibb.co/zHQ6q95/everytable.jpg"),
     linear-gradient(180deg, rgb(136, 136, 136) 60%, rgba(0, 0, 0, 0.816));
 }
 
 .boxes .box-3.C {
-  background-image: url("https://i.ibb.co/74wMzVB/nearme-app.jpg"),
+  background-image: url("https://i.ibb.co/NjZszdf/nearme-app.jpg"),
     linear-gradient(180deg, rgb(136, 136, 136) 60%, rgba(0, 0, 0, 0.816));
 }
 
@@ -730,13 +732,13 @@ a {
 }
 
 .boxes .box-3.E {
-  background-image: url("https://i.ibb.co/Krktgd4/bulanfoods.jpg"),
+  background-image: url("https://i.ibb.co/FXkK94R/bulanfoods.jpg"),
     linear-gradient(180deg, rgb(136, 136, 136) 60%, rgba(0, 0, 0, 0.816));
 }
 
 .boxes .box-3.F {
-  -ms-background-image: url("images/feels-like-home.png");
-  background-image: url("https://i.ibb.co/fQVM1cM/feels-like-home.png"),
+  /* -ms-background-image: url(""); */
+  background-image: url("https://i.ibb.co/5BHMv5K/feels-like-home.jpg"),
     linear-gradient(180deg, rgb(136, 136, 136) 60%, rgba(0, 0, 0, 0.816));
 }
 
@@ -800,7 +802,7 @@ a {
 /* -- About -- */
 .about {
   width: 100%;
-  height: 700px;
+  height: 800px;
   padding: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -818,7 +820,7 @@ a {
   transform: rotate(-7deg);
   transition: 0.4s;
   border-radius: 5px;
-  background-image: url("https://i.ibb.co/bgsnbSm/backgroundabout.jpg");
+  background-image: url("https://i.ibb.co/JCjMqxv/backgroundabout.jpg");
   background-position: center bottom;
   background-size: cover;
   z-index: 1;
@@ -990,19 +992,7 @@ a {
 }
 
 @supports (-moz-appearance: none) {
-  .frame-wrapper .close i {
-    transition: 0s;
-  }
-  .frame-wrapper i:hover {
-    width: 55px;
-    color: #ffde84;
-  }
-  .frame-wrapper .close.next i:hover {
-    width: 55px;
-  }
-  .frame-wrapper .close.next.download i:hover {
-    width: 55px;
-  }
+
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
@@ -1140,7 +1130,7 @@ a {
     float: center;
   }
   .wave {
-    margin-top: -300px;
+    margin-top: -330px;
   }
   .services {
     height: auto;
@@ -1168,20 +1158,20 @@ a {
     height: auto;
     padding: 80px 30px;
   }
-  .outer-border {
+  .about .outer-border {
     border: 0px solid #e7e7e7;
     transform: rotate(0deg);
     border-radius: 30px 0px 0px 30px;
-    background-image: url("https://i.ibb.co/bgsnbSm/backgroundabout.jpg");
     background-color: #e7e7e7;
+    background-image: url("https://i.ibb.co/MVfGZYV/daniel-agu-about.jpg");
   }
-  .outer-border:hover {
+  .about .outer-border:hover {
     transform: rotate(0deg);
-    background-image: url("");
     background-color: #e7e7e7;
     border-radius: 30px 0px 0px 30px;
   }
   .about img {
+    display: none;
     max-width: 100%;
     margin-left: 0px;
     transform: rotate(0deg);
@@ -1485,7 +1475,7 @@ a {
     margin: 0;
   }
 
-  .sticky-nav {
+  .hero .sticky-nav {
     display: none;
   }
 
@@ -1498,45 +1488,13 @@ a {
     top: 0;
     width: 100%;
     background-color: #0e1d3d;
-  }
-
-  .sticky-nav2 ul {
-    width: 100%;
-    text-align: right;
-    padding: 0px;
-  }
-
-  .sticky-nav2 ul li {
-    list-style: none;
-  }
-  .sticky-nav2 ul li ul {
-    display: none;
-  }
-  .main-nav2 a li {
-    font-size: 1em;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .sticky-nav2 a {
-    padding: 8px 5px 5px 5px;
-    justify-content: flex-end;
+    box-shadow: 0px 4px 8px #00000098;
   }
   .sticky-nav2 a .logo {
     width: 40px;
+    padding-top: 6px;
   }
-
-  .sticky-nav2 ul li:hover ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    flex-direction: column;
-  }
-  .sticky-nav2 ul li .fa.fa-bars {
-    font-size: 2em;
-    padding: 10px 15px;
-    color: #ffffff;
-  }
+  
   .wave {
     transform: translateY(-20px);
   }
@@ -1547,6 +1505,7 @@ a {
     width: 100%;
     padding: 30px 5px;
     border-radius: 0px;
+    
   }
   .services h1 {
     padding: 20px;
@@ -1557,7 +1516,7 @@ a {
   }
   .services .s-boxes .box {
     border-radius: 0px;
-    margin: 0px;
+    margin: 0 auto;
   }
   .services .s-boxes .box:first-child {
     border-top-right-radius: 20px;
