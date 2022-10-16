@@ -1,13 +1,12 @@
 
 
-
+// for portfolio site
 let onsite = document.getElementById("onsite");
-
 function showonsite() {
 	alert ("You are currently on the Website");
 }
-
 onsite.addEventListener("click", showonsite);
+
 
 
 
@@ -50,6 +49,7 @@ $('.post-wrapper').slick({
 			// instead of a settings object
 			]
 	});
+
 
 
 	
