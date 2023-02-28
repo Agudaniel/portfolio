@@ -659,7 +659,7 @@ a {
   transition: 0.4s;
   transform: scale(1.04, 1.04);
   transform: scale(105%);
-  box-shadow: 1.5px 2px 35px -2px rgb(54, 54, 54);
+  box-shadow: 1.5px 2px 35px -2px rgb(119, 119, 119);
 }
 
 .boxes .box-3 h2 {
@@ -912,6 +912,11 @@ a {
   font-family: "lora", serif;
   font-size: 1.3em;
   color: #ffffff;
+}
+
+.footer .footer-content .contact a:hover {
+  color: #ffde84;
+  transition: all 0.2s;
 }
 
 .footer .footer-content .contact a {
